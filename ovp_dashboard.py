@@ -237,7 +237,7 @@ with st.sidebar:
     )
     st.markdown(
         "[Background](https://worklocomotion.substack.com/) · "
-        "[Contact](https://www.linkedin.com/in/your-handle/)"
+        "[Contact](https://www.linkedin.com/in/manley-osbak/)"
     )
 
 with st.expander("Data sources (optional uploads)", expanded=False):
@@ -380,3 +380,4 @@ if __name__ == "__main__":
     print("")
     print("WORK LOCOMOTION: Make Potential Actual")
     print("")
+
