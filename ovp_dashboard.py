@@ -18,7 +18,7 @@ import altair as alt
 # ---------------------------
 st.set_page_config(
     page_title="Work Locomotion — OVP Dashboard",
-    page_icon="📊",
+    page_icon="MAIN LOGO.png",
     layout="wide",
 )
 
@@ -380,4 +380,5 @@ if __name__ == "__main__":
     print("")
     print("WORK LOCOMOTION: Make Potential Actual")
     print("")
+
 
