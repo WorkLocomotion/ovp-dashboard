@@ -17,12 +17,12 @@ import altair as alt
 # CONFIG & BRANDING
 # ---------------------------
 st.set_page_config(
-    page_title="Work Locomotion — OVP Dashboard",
+    page_title="OVP Dashboard",
     page_icon="MAIN LOGO.png",
     layout="wide",
 )
 
-HEADER_TITLE = "Work Locomotion — Occupational Value (OVP) Dashboard"
+HEADER_TITLE = "Occupational Value (OVP) Dashboard"
 ANCHOR_HIGH_SOC = "11-1011.00"  # Chief Executives
 ANCHOR_LOW_SOC  = "45-2041.00"  # Graders & Sorters, Agricultural Products
 VALUE_DIMENSIONS = [
@@ -279,7 +279,7 @@ if missing_anchors:
 # MATCHING UI
 # ---------------------------
 st.markdown("### 1) Enter your job title")
-query = st.text_input("Type a job title (e.g., Pipefitter, Contracts Administrator)").strip()
+query = st.text_input("Job title (e.g., Pipefitter, Contracts Administrator)").strip()
 
 cands = pd.DataFrame()
 if query:
@@ -383,6 +383,7 @@ if __name__ == "__main__":
     print("")
     print("WORK LOCOMOTION: Make Potential Actual")
     print("")
+
 
 
 
