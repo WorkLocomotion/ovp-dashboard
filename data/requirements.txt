@@ -1,0 +1,6 @@
+streamlit
+pandas
+numpy
+altair
+openpyxl
+rapidfuzz   # optional; app falls back gracefully if not installed
