@@ -1,6 +1,8 @@
 # 📊 Occupational Value (OVP) Dashboard
 
-The **Occupational Value (OVP) Dashboard** is an interactive Streamlit web app that helps users explore the motivational structure of work.
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-brightgreen?logo=streamlit)](https://worklocomotion-ovp-dashboard.streamlit.app)
+
+The **Occupational Value (OVP) Dashboard** is an interactive Streamlit web app that helps users explore the motivational structure of work.  
 It identifies the **Occupational Value Profile (OVP)** for a single occupation and compares it against four benchmark occupations.
 
 ---
