@@ -230,10 +230,13 @@ st.markdown(f"## {HEADER_TITLE}")
 st.caption("Data processed in your session. Upload your own files or use the defaults packaged with the app.")
 
 with st.sidebar:
+    # Display your logo at the top of the sidebar
+    st.image("Logo Main Yellow Clear.png", width=120)   # adjust width to fit nicely
+
     st.markdown("### How to use")
     st.write(
         "Enter a job title, select the best O*NET match, and compare its OVP to benchmark roles "
-        "(Chief Executives, Nearest Mid-High, Participant, Nearest Mid-Low, Graders & Sorters)."
+        "(Chief Executives, Nearest Mid-High, Participant (you), Nearest Mid-Low, Graders & Sorters)."
     )
     st.markdown(
         "[Background](https://worklocomotion.substack.com/) · "
@@ -380,5 +383,6 @@ if __name__ == "__main__":
     print("")
     print("WORK LOCOMOTION: Make Potential Actual")
     print("")
+
 
 
